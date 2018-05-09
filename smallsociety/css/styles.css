@@ -1,0 +1,54 @@
+
+
+html{
+	height: 100%;
+}
+
+body{
+	margin:0;
+	height: 100%;
+	background-image: url("../images/society2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+nav{
+	width: 90%;
+	height: 85%;
+	vertical-align: middle;
+	display: inline-block;
+	text-align: left;
+	padding: 25px;
+	border: 2px solid #4a4a4a;
+}
+nav .index_applyBox{
+	position: absolute;
+	left: 85%;
+	top: 80%;
+}
+nav .index_applyBox .index_applyBox_letter{
+	letter-spacing: 5px;
+	text-align: center;
+	
+}
+nav .index_applyBox .index_applyBox_box{
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	background-color: white;
+	border:2px solid black;
+}
+a{
+	vertical-align: middle;
+	text-decoration: none;
+	color: black;
+}
+
+/* 수직 정렬을 위한 요소추가 class입니다*/
+.helper{
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
