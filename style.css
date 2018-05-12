@@ -6,17 +6,17 @@
 .logo{
   display: inline-block;
   float: left;
+  height: 70px;
 }
 .logo img{
   overflow: hidden;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
 }
 
 .logo p{
   vertical-align: bottom;
   text-align: center;
-  font-size: 8;
   font-family: sans-serif;
   margin: 0px;
 
@@ -31,8 +31,9 @@
 .menulist{
   list-style-type: none;
   vertical-align: top;
-  height: 60px;
+  height: 65px;
   padding: 0px;
+  margin: 0px;
 }
 
 .menulist li{
@@ -47,26 +48,36 @@
   display: inline-block;
   text-decoration: none;
   color:black;
-  height: 60px;
-  line-height: 58px;
+  height: 65px;
+  line-height: 60px;
   font-size: 18px;
   font-family: sans-serif;
-  padding: 0 10px 0 10px;
-  margin:
+  padding: 0px;
+
 }
 
-.menulist ul li{
+.menulist li a:hover{
+  text-decoration-line: underline;
+}
+
+.submenu{
+  padding: 0;
   display: none;
 }
 
-.menulist ul li a{
-  text-decoration: none;
-  display: block;
-  width: 150px;
+.submenu li a{
   font-size: 16px;
+  height: 40px;
+  width: 150px;
+  text-decoration-line: none;
+}
+
+.sublist:hover .submenu{
+  display: block;
 
 }
 
-.menulist li:hover .submenu {
-  display: block;
+.submenu li a:hover{
+  text-decoration-line: none;
+  background-color: lightyellow;
 }
